@@ -2,7 +2,7 @@
 import Layout from '../components/Layout.astro';
 // import VueCom from '../components/test.vue'
 // import '../components/Conter.js';
-// import Conter from '../components/Conter.svelte'
+import Conter from '../components/Conter.svelte'
 
 const name = 'this is test'
 function alt(name){
@@ -28,9 +28,9 @@ console.log(alt('name'))
 		<!-- <VueCom client:visible>
 			<h1>hello world</h1>
 		</VueCom> -->
-		<!-- <Conter client:visible>
+		<Conter client:visible>
 			<h2>www </h2>
-		</Conter> -->
+		</Conter>
 		<!-- <my-counter client:load></my-counter> -->
 		<ul role="list" class="link-card-grid">
 			<li class="link-card">
